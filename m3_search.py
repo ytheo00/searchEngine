@@ -6,6 +6,7 @@ import sys
 from math import log
 import numpy as np
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import re
 
